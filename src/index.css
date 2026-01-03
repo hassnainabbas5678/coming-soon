@@ -4,9 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&display=swap');
 
+/* Add Gotham if installed locally */
 .font-orbitron {
   font-family: 'Orbitron', sans-serif;
 }
+
+/* Gotham for Coming Soon + tagline */
+.font-gotham {
+  font-family: 'Gotham', 'Helvetica', 'Arial', sans-serif;
+}
+
 
 
 

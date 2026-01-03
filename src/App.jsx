@@ -34,8 +34,8 @@ export default function App() {
       x: Math.random() * canvas.width,
       y: Math.random() * canvas.height,
       r: Math.random() * 1.5 + 0.5,
-      vx: (Math.random() - 0.5) * 0.3,
-      vy: (Math.random() - 0.5) * 0.3,
+      vx: (Math.random() - 0.5) * 1,
+      vy: (Math.random() - 0.5) * 1,
     }));
 
     function animate() {
@@ -79,13 +79,14 @@ export default function App() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-[#8efcff] uppercase mb-2 sm:mb-3 text-lg sm:text-xl md:text-2xl tracking-wider drop-shadow-[0_0_6px_#00f2ff]">
-          Innovify Edge
+        <h2 className="text-[#8efcff] uppercase mb-2 sm:mb-3 text-lg sm:text-xl md:text-2xl tracking-wider drop-shadow-[0_0_6px_#00f2ff] font-orbitron">
+          YOUR COMPANY NAME
         </h2>
-        <h1 className="text-[#00f2ff] text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-widest drop-shadow-[0_0_12px_#00f2ff]">
+        <h1 className="text-[#00f2ff] text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-widest drop-shadow-[0_0_12px_#00f2ff] font-gotham">
           COMING SOON
         </h1>
-        <p className="mt-3 sm:mt-4 text-xs sm:text-sm md:text-base text-[#b6faff] drop-shadow-[0_0_6px_#00f2ff] max-w-md">
+
+        <p className="mt-4 text-sm sm:text-base md:text-lg text-[#b6faff] drop-shadow-[0_0_6px_#00f2ff] font-gotham">
           Engineering the future of software
         </p>
       </motion.div>
