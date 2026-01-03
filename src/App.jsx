@@ -80,7 +80,7 @@ export default function App() {
         transition={{ duration: 1 }}
       >
         <h2 className="text-[#8efcff] uppercase mb-2 sm:mb-3 text-lg sm:text-xl md:text-2xl tracking-wider drop-shadow-[0_0_6px_#00f2ff] font-orbitron">
-          YOUR COMPANY NAME
+          INNOVIFY EDGE
         </h2>
         <h1 className="text-[#00f2ff] text-4xl sm:text-5xl md:text-6xl font-extrabold tracking-widest drop-shadow-[0_0_12px_#00f2ff] font-gotham">
           COMING SOON
